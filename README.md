@@ -1,16 +1,26 @@
-# new_dep
+Extract
+Extract is a Flutter-based mobile application that allows users to upload images, extract text from them using Google’s Machine Learning Kit, and manage these images in a Google Cloud Storage bucket.
 
-A new Flutter project.
+Features:
+Image-to-Text Conversion: Users can upload images, and the app extracts text from the images using Google ML Kit.
 
-## Getting Started
+Image Management:
+Upload images to a Google Cloud Storage bucket.
+View a list of previously uploaded images.
+Delete images stored in the bucket.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Technologies Used:
+Frontend: Flutter
+Backend: PHP deployed on Google App Engine
+Cloud Services: Google Cloud Storage, App Engine
+Machine Learning: Google ML Kit
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setup Instructions:
+Prerequisites
+Flutter SDK installed on your local machine.
+A Google Cloud project with:
+A Cloud Storage bucket created.
+App Engine configured with the backend deployed.
+A service account key for local testing.
